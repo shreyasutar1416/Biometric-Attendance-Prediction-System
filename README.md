@@ -38,9 +38,9 @@ This project uses processed attendance records to train a predictive model (**Ra
 
 ### 1️⃣ Clone Repository
 
-git clone https://github.com/shreyasutar1416/biometric-attendance-prediction.git
+git clone https://github.com/shreyasutar1416/Biometric-Attendance-Prediction-System.git
 
-cd biometric-attendance-prediction
+cd Biometric-Attendance-Prediction-System
 
 ### 2️⃣ Install Dependencies
 pip install -r requirements.txt
