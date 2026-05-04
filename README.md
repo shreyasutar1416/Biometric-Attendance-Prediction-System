@@ -62,71 +62,68 @@ biometric-attendance-prediction/
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone Repository
-```bash
+
 git clone https://github.com/your-username/biometric-attendance-prediction.git
 cd biometric-attendance-prediction
-2️⃣ Install Dependencies
+
+### 2️⃣ Install Dependencies
 pip install -r requirements.txt
-▶️ How It Works
+
+### ▶️ How It Works
+
 Step 1: Data Preprocessing
+ - Run the data processor to clean and prepare attendance data:
+ - python data_processor.py
 
-Run the data processor to clean and prepare attendance data:
-
-python data_processor.py
 Step 2: Train the Model
+ - Train the Random Forest model:
+ - python train_model.py
+ - The trained model will be saved in:
+ - models/rf_attendance_model.joblib
 
-Train the Random Forest model:
-
-python train_model.py
-
-The trained model will be saved in:
-
-models/rf_attendance_model.joblib
 Step 3: Run the Application
-python app.py
-Loads trained model
-Takes input data
-Predicts attendance
+ - python app.py
+ - Loads trained model
+ - Takes input data
+ - Predicts attendance
 
 📊 Dataset Details
-1. student_details.csv
 
+1. student_details.csv
 Contains student-related information.
 
 2. processed_attendance.csv
-
 Contains cleaned and structured attendance data used for model training.
 
 🧠 Machine Learning Model
-Algorithm Used: Random Forest Classifier
-Why Random Forest?
-Handles large datasets efficiently
-Reduces overfitting
-Provides high accuracy
+ - Algorithm Used: Random Forest Classifier
+ - Why Random Forest?
+ - Handles large datasets efficiently
+ - Reduces overfitting
+ - Provides high accuracy
 
 📈 Workflow
-Raw attendance data collected
-Data cleaned using data_processor.py
-Features prepared for training
-Model trained using train_model.py
-Model saved using Joblib
-Predictions made via app.py
+ - Raw attendance data collected
+ - Data cleaned using data_processor.py
+ - Features prepared for training
+ - Model trained using train_model.py
+ - Model saved using Joblib
+ - Predictions made via app.py
 
 📌 Output
-Attendance prediction (Present/Absent or similar)
-Processed dataset
-Trained ML model
+ - Attendance prediction (Present/Absent or similar)
+ - Processed dataset
+ - Trained ML model
 
 🔮 Future Enhancements
-Web-based dashboard (Flask/Streamlit)
-Real-time biometric device integration
-Advanced ML models (XGBoost, Deep Learning)
-Visualization dashboards
+ - Web-based dashboard (Flask/Streamlit)
+ - Real-time biometric device integration
+ - Advanced ML models (XGBoost, Deep Learning)
+ - Visualization dashboards
 
 💡 Acknowledgements
-Open-source libraries and tools
-Academic references and datasets
+ - Open-source libraries and tools
+ - Academic references and datasets
 
 👤 Author
-
-Shreya Sutar
+~ Shreya Sutar
