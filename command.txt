@@ -1,1 +1,50 @@
+# Biometric Attendance Prediction - Commands
 
+# ==============================
+# 1. Clone the Repository
+# ==============================
+git clone https://github.com/your-username/biometric-attendance-prediction.git
+cd biometric-attendance-prediction
+
+
+# ==============================
+# 2. Install Dependencies
+# ==============================
+pip install -r requirements.txt
+
+
+# ==============================
+# 3. Run Data Preprocessing
+# ==============================
+python data_processor.py
+
+
+# ==============================
+# 4. Train the Model
+# ==============================
+python train_model.py
+
+
+# ==============================
+# 5. Run the Application
+# ==============================
+python app.py
+
+
+# ==============================
+# 6. (Optional) Create Virtual Environment
+# ==============================
+python -m venv venv
+
+# Activate (Windows)
+venv\Scripts\activate
+
+# Activate (Mac/Linux)
+source venv/bin/activate
+
+
+# ==============================
+# 7. (Optional) Install Jupyter
+# ==============================
+pip install notebook
+jupyter notebook
