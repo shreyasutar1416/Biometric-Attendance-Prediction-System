@@ -36,7 +36,8 @@ This project uses processed attendance records to train a predictive model (**Ra
 
 ## 📂 Project Structure
 
-BIOMETRIC ATTENDANCE PREDICTION/
+
+biometric-attendance-prediction/
 │
 ├── data/
 │ ├── processed_attendance.csv
@@ -57,9 +58,9 @@ BIOMETRIC ATTENDANCE PREDICTION/
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone Repository
-
+```bash
 git clone https://github.com/your-username/biometric-attendance-prediction.git
-cd BIOMETRIC-ATTENDANCE-PREDICTION
+cd biometric-attendance-prediction
 2️⃣ Install Dependencies
 pip install -r requirements.txt
 ▶️ How It Works
@@ -97,7 +98,6 @@ Why Random Forest?
 Handles large datasets efficiently
 Reduces overfitting
 Provides high accuracy
-
 📈 Workflow
 Raw attendance data collected
 Data cleaned using data_processor.py
@@ -105,22 +105,18 @@ Features prepared for training
 Model trained using train_model.py
 Model saved using Joblib
 Predictions made via app.py
-
 📌 Output
 Attendance prediction (Present/Absent or similar)
 Processed dataset
 Trained ML model
-
 🔮 Future Enhancements
 Web-based dashboard (Flask/Streamlit)
 Real-time biometric device integration
 Advanced ML models (XGBoost, Deep Learning)
 Visualization dashboards
-
 💡 Acknowledgements
 Open-source libraries and tools
 Academic references and datasets
+👤 Author
 
-AUTHOR:
-~Shreya Sutar
-
+Shreya Sutar
