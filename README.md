@@ -30,33 +30,8 @@ This project uses processed attendance records to train a predictive model (**Ra
 - Pandas  
 - NumPy  
 - Scikit-learn  
-- Joblib  
-
----
-
-Yeah, I see the issue — your project structure got flattened into one line, which happens when Markdown code blocks aren’t used properly.
-
-Here’s a clean, perfectly formatted version you can copy-paste directly into GitHub README.md 👇
-
-## 📂 Project Structure
-
-
-biometric-attendance-prediction/
-│
-├── data/
-│ ├── processed_attendance.csv
-│ └── student_details_on_20260504 (2).csv
-│
-├── models/
-│ └── rf_attendance_model.joblib
-│
-├── app.py # Main application file
-├── data_processor.py # Data preprocessing script
-├── train_model.py # Model training script
-├── requirements.txt # Dependencies
-└── README.md
-
-
+- Joblib
+  
 ---
 
 ## ⚙️ Installation & Setup
@@ -64,6 +39,7 @@ biometric-attendance-prediction/
 ### 1️⃣ Clone Repository
 
 git clone https://github.com/your-username/biometric-attendance-prediction.git
+
 cd biometric-attendance-prediction
 
 ### 2️⃣ Install Dependencies
@@ -87,13 +63,19 @@ Step 3: Run the Application
  - Takes input data
  - Predicts attendance
 
+---
+
 📊 Dataset Details
 
 1. student_details.csv
+   
 Contains student-related information.
 
 2. processed_attendance.csv
+   
 Contains cleaned and structured attendance data used for model training.
+
+---
 
 🧠 Machine Learning Model
  - Algorithm Used: Random Forest Classifier
@@ -101,6 +83,7 @@ Contains cleaned and structured attendance data used for model training.
  - Handles large datasets efficiently
  - Reduces overfitting
  - Provides high accuracy
+   
 
 📈 Workflow
  - Raw attendance data collected
@@ -110,10 +93,12 @@ Contains cleaned and structured attendance data used for model training.
  - Model saved using Joblib
  - Predictions made via app.py
 
+
 📌 Output
  - Attendance prediction (Present/Absent or similar)
  - Processed dataset
  - Trained ML model
+
 
 🔮 Future Enhancements
  - Web-based dashboard (Flask/Streamlit)
@@ -121,9 +106,13 @@ Contains cleaned and structured attendance data used for model training.
  - Advanced ML models (XGBoost, Deep Learning)
  - Visualization dashboards
 
+
 💡 Acknowledgements
  - Open-source libraries and tools
  - Academic references and datasets
 
+---
+
 👤 Author
+
 ~ Shreya Sutar
