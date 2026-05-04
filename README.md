@@ -65,7 +65,7 @@ Step 3: Run the Application
 
 ---
 
-📊 Dataset Details
+## 📊 Dataset Details
 
 1. student_details.csv
    
@@ -77,7 +77,7 @@ Contains cleaned and structured attendance data used for model training.
 
 ---
 
-🧠 Machine Learning Model
+## 🧠 Machine Learning Model
  - Algorithm Used: Random Forest Classifier
  - Why Random Forest?
  - Handles large datasets efficiently
@@ -85,7 +85,7 @@ Contains cleaned and structured attendance data used for model training.
  - Provides high accuracy
    
 
-📈 Workflow
+## 📈 Workflow
  - Raw attendance data collected
  - Data cleaned using data_processor.py
  - Features prepared for training
@@ -94,25 +94,25 @@ Contains cleaned and structured attendance data used for model training.
  - Predictions made via app.py
 
 
-📌 Output
+## 📌 Output
  - Attendance prediction (Present/Absent or similar)
  - Processed dataset
  - Trained ML model
 
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
  - Web-based dashboard (Flask/Streamlit)
  - Real-time biometric device integration
  - Advanced ML models (XGBoost, Deep Learning)
  - Visualization dashboards
 
 
-💡 Acknowledgements
+## 💡 Acknowledgements
  - Open-source libraries and tools
  - Academic references and datasets
 
 ---
 
-👤 Author
+## 👤 Author
 
 ~ Shreya Sutar
